@@ -1,17 +1,25 @@
+/*Unversal Rules */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
+    color: #FFF;
 }
 
 body {
     
     width: 100%;
-    background-color: #556270
+    background: linear-gradient(#242422,#3F4040);
+    background: -webkit-linear-gradient(#242422,#3F4040);;
+    background: -o-linear-gradient(#242422,#3F4040);;
+    background: -moz-linear-gradient(#242422,#3F4040);;
 }
 
+
+/* */
 .top-header {
     position: fixed;
     width: 100%;
@@ -33,6 +41,7 @@ body {
 section {
     width: 100%;
     height: 50%;
+
 }
 
 h1 {
@@ -43,18 +52,21 @@ h1 {
 }
 
 h1 small {
-
+    
+    color: #fff;
     font-size: .3em;
+}
 
+h1 span, h2 span {
+    
+
+    color: #9F5FB3;
 }
 
 p {
 
-    color: #e1f1ed;
     margin-left: 35%;
     font-size: 2em;
-
-
 }
 
 
@@ -62,20 +74,14 @@ p {
 footer {	
     width: 100%;
     height: 145px;
-	border-top: #242D37 1px solid;
-    margin-top: 7%;
-    background-color: #033649;
 }
 
+
 footer h2 {
-	
 	font-size: 2em;
 	margin-left: 20%;
 }
 
-address  {
-
-}
 
 footer .list-socials {
 	margin-top: 3%;
@@ -104,4 +110,12 @@ footer .list-socials #insta {
 footer .list-socials #twitter {
 
 	margin-left: 8%;
+}
+
+footer .fa {
+    color: #FFF;
+}
+
+footer .fa:hover {
+    color: silver;
 }
